@@ -11,7 +11,11 @@ services:
     #ports:
       #- "8338:3001"
     tty: true
-    
+
     # volumes:
     #   - ./database:/app/database:delegate
 
+networks:
+  default:
+    external:
+      name: chichi-network
