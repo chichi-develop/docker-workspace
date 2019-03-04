@@ -7,7 +7,7 @@ services:
 #      args:
 #        - NODE_ENV=development
 
-#    container_name: ubuntu
+    container_name: workspace
     #ports:
       #- "8338:3001"
     tty: true
