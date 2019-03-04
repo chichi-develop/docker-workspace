@@ -7,4 +7,5 @@ RUN apt -y install net-tools \
   inetutils-ping \
   tcpdump \
   mycli \
+  mysql-client \
   redis-tools
