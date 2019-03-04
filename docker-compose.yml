@@ -12,8 +12,8 @@ services:
       #- "8338:3001"
     tty: true
 
-    # volumes:
-    #   - ./database:/app/database:delegate
+    volumes:
+      - ./share:/share:delegated
 
 networks:
   default:
