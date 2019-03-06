@@ -5,7 +5,11 @@ RUN apt -y install net-tools \
   iproute2 \
   nmap \
   inetutils-ping \
+  traceroute \
+  dnsutils \
   tcpdump \
-  mycli \
   mysql-client \
+  curl \
+  w3m \
   redis-tools
+

@@ -4,16 +4,16 @@ services:
   workspace:
     build:
       context: .
-#      args:
-#        - NODE_ENV=development
-
     container_name: workspace
-    #ports:
-      #- "8338:3001"
     tty: true
-
     volumes:
       - ./share:/share:delegated
+  workspace-adminer:
+    image: adminer:4.7
+    container_name: workspace-adminer
+    ports:
+      - "8399:8080"
+    tty: true
 
 networks:
   default:
