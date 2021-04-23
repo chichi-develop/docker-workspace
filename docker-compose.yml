@@ -9,7 +9,7 @@ services:
     volumes:
       - ./share:/share:delegated
   workspace-adminer:
-    image: adminer:4.7
+    image: adminer
     container_name: workspace-adminer
     ports:
       - "8399:8080"
